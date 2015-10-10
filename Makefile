@@ -1,7 +1,7 @@
 helloworld :
 	g++ hello_world.cpp -o helloworld
 
-test : hello
+test : helloworld
 	./helloworld
 
 clean :
